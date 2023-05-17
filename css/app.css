@@ -1,0 +1,51 @@
+:root {
+  --black: #1d1d1d;
+  --white: #fff;
+  --gray-text: #746e6b;
+  --gray-lightest: #ececec;
+  --blue-gray-text: #9baaae;
+  --pink: #e6c1c5;
+  --orange-lighter: #ddd1cd;
+  --orange-light: #f9dabb;
+  --orange: #f9bd8e;
+  --dark-blue: #495e85;
+  --cream: #fbf7f4;
+  --gray-line: #dfdbd7;
+  --progress-gray-square: #d9d9d9;
+  --progress-gray-icon: #475e87;
+  --progress-orange-square: #fceee4;
+  --progress-orange-icon: #fbbc8c;
+  --progress-pink-square: #f8ece9;
+  --progress-pink-icon: #e1a9ae;
+  --progress-gray-light-square: #e8ebea;
+  --progress-gray-light-icon: #9cafb3;
+  --status-green: #3edba2;
+  --gradient-yellow-light: #ebe5da;
+  --gradient-green-dark: #9baaae;
+
+  --primary-font: Inconsolata, monospace;
+  --text-font: Oxygen;
+
+  --font-xlarge: 2.8rem;
+  --font-large: 2rem;
+  --font-medium: 1.6rem;
+  --font-normal: 1.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+.main-nav {
+  width: 250px;
+}
+
+.logo {
+  margin-top: 50px;
+  text-align: center;
+}

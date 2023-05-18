@@ -283,3 +283,98 @@ a {
   margin-top: 0.2rem;
   color: var(--gray-text);
 }
+
+.weekly {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/green-circles.png),
+    linear-gradient(
+      to bottom right,
+      var(--gradient-yellow-light),
+      var(--gradient-green-dark)
+    );
+  padding: 2.4rem 2rem;
+}
+
+.ads {
+  margin-top: 5.6rem;
+}
+
+.weekly h3 {
+  font-size: var(--font-medium);
+  font-weight: 600;
+  font-family: var(--primary-font);
+  color: var(--black);
+}
+
+.weekly p {
+  margin-top: 1.2rem;
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  color: var(--gray-text);
+}
+
+.weekly button {
+  margin-top: auto;
+}
+
+.weekly button {
+  margin-top: auto;
+  color: var(--black);
+  border: 1px solid var(--black);
+  background-color: transparent;
+  padding: 0.8rem 1.6rem;
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.weekly button:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.study-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.study {
+  width: 100%;
+  height: 250px;
+  background-color: var(--orange-lighter);
+  padding: 2.4rem 2rem;
+}
+
+.study.in-progress {
+  background-image: url(../img//circle-3d.png);
+}
+
+.study.completed {
+  background-image: url(../img/clouds.png);
+}
+
+.study h3 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  color: var(--black);
+  font-size: var(--font-medium);
+}
+
+.study-content {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+  font-family: var(--text-font);
+  color: var(--black);
+  margin-top: 1.6rem;
+}
+
+.study-content svg {
+  width: 1.6rem;
+}

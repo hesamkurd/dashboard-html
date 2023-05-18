@@ -36,6 +36,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 
 html {
@@ -49,6 +50,10 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.main {
+  display: flex;
 }
 
 .main-nav {
@@ -156,4 +161,52 @@ a {
 }
 .logout span svg {
   width: 18px;
+}
+
+.plan {
+  background-color: var(--white);
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  width: 450px;
+  padding: 3.6rem 3.2rem 0 3.2rem;
+}
+
+.plan > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-title {
+  font-family: var(--primary-font);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.plan-time {
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  color: var(--blue-gray-text);
+  margin-top: 0.4rem;
+}
+
+.button-circle {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: var(--black);
+  border-radius: 50%;
+  border: none;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-circle:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.button-circle svg {
+  width: 1.8rem;
 }

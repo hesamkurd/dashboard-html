@@ -210,3 +210,76 @@ a {
 .button-circle svg {
   width: 1.8rem;
 }
+
+.post {
+  margin-top: 5.4rem;
+}
+
+.post h3 {
+  font-size: 2.4rem;
+  font-family: var(--primary-font);
+  font-weight: 600;
+}
+
+.post-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.comment-authors {
+  display: flex;
+}
+
+.comment-authors img {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  position: relative;
+}
+
+.comment-authors img:nth-child(2) {
+  left: -1.5rem;
+}
+
+.comment-authors img:nth-child(3) {
+  left: -3rem;
+}
+
+.total-comments {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  background-color: var(--orange-light);
+  left: -4.5rem;
+  top: 0;
+}
+
+.team-meeting {
+  border-left: 1px solid var(--gray-lightest);
+  padding-left: 2.4rem;
+}
+
+.team-meeting h4 {
+  font-family: var(--primary-font);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.team-meeting span {
+  display: inline-block;
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  margin-top: 0.2rem;
+  color: var(--gray-text);
+}

@@ -378,3 +378,88 @@ a {
 .study-content svg {
   width: 1.6rem;
 }
+
+.blog {
+  margin-top: 5rem;
+  padding-left: 5.4rem;
+}
+
+.blog header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 60rem;
+  width: 100%;
+}
+
+.blog header h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-family: var(--primary-font);
+}
+
+.blog header a {
+  font-size: 1.6rem;
+  font-family: var(--text-font);
+  color: var(--gray-text);
+}
+
+.blog-post {
+  margin-top: 2.4rem;
+  width: 100%;
+  border: 1px solid var(--gray-line);
+  padding: 2rem 2.4rem 2.4rem 2.4rem;
+}
+
+.blog-post h3 {
+  font-family: var(--primary-font);
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: var(--text-font);
+  color: var(--gray-text);
+}
+
+.post-status {
+  display: flex;
+  margin-top: 2.4rem;
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+}
+
+.post-status span {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: var(--black);
+  font-weight: 600;
+  margin-right: 0.8rem;
+}
+
+.post-status.post-status-feedback span {
+  background-color: var(--orange-light);
+}
+
+.post-status.post-status-info span {
+  color: var(--black);
+}
+
+.post-status.post-status-completed span {
+  color: var(--blue-gray-text);
+}
+
+.post-status svg {
+  width: 16px;
+}

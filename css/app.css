@@ -423,7 +423,7 @@ a {
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;
-  font-family: var(--text-font);
+  font-family: var(--primary-font);
   color: var(--gray-text);
 }
 
@@ -462,4 +462,102 @@ a {
 
 .post-status svg {
   width: 16px;
+}
+
+.learinigs {
+  margin-top: 5.4rem;
+  padding-left: 5.4rem;
+}
+
+.learinigs header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.learinigs header h2 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--black);
+}
+
+.learinigs header p {
+  font-family: var(--text-font);
+  color: var(--gray-text);
+  margin-top: 0.8rem;
+  font-size: 1.8rem;
+}
+
+.learinigs header button {
+  background-color: transparent;
+  border: none;
+  color: var(--gray-text);
+}
+
+.learinigs header svg {
+  width: 24px;
+  height: 24px;
+}
+
+.progress {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.progress section {
+  width: 50%;
+  margin-bottom: 3.2rem;
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.progress-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+}
+
+.progress-logo.gray {
+  background-color: var(--progress-gray-square);
+  color: var(--progress-gray-icon);
+}
+
+.progress-logo.orange {
+  background-color: var(--progress-orange-square);
+  color: var(--progress-orange-icon);
+}
+
+.progress-logo.pink {
+  background-color: var(--progress-pink-square);
+  color: var(--progress-pink-icon);
+}
+
+.progress-logo.light-gray {
+  background-color: var(--progress-gray-light-square);
+  color: var(--progress-gray-light-icon);
+}
+
+.progress-logo svg {
+  width: 24px;
+  height: 24px;
+}
+
+.progress-info h3 {
+  font-family: var(--primary-font);
+  font-size: var(--font-medium);
+  font-weight: 600;
+  color: var(--black);
+}
+
+.progress-info p {
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  color: var(--gray-text);
+  margin-top: 0.4rem;
 }

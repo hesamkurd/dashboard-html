@@ -561,3 +561,57 @@ a {
   color: var(--gray-text);
   margin-top: 0.4rem;
 }
+
+.profile {
+  width: 20rem;
+  border-left: 1px solid var(--gray-line);
+  margin: 1.6rem 0 1.6rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh) - 3.2rem;
+}
+
+.author {
+  margin-top: 5.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.author h3 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--black);
+  margin-top: 0.6rem;
+}
+
+.author p {
+  font-family: var(--text-font);
+  font-size: 1.2rem;
+  color: var(--gray-text);
+  margin-top: 0.5rem;
+}
+
+.profile .buttons {
+  margin-top: auto;
+  margin-bottom: 3rem;
+}
+
+.profile .buttons li {
+  margin-top: 1.6rem;
+}
+
+.profile .buttons button {
+  background-color: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+}
